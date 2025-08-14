@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PathBounds
+  m_Shader: {fileID: 4800000, guid: 777ecf3398312a246931d5c83b159e37, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - UNITY_UI_ALPHACLIP
+  - _ALPHAPREMULTIPLY_ON
+  - _GLOSSYREFLECTIONS_OFF
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  - _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StylizedThreshold:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _DistanceFactor: 1.64
+    - _DistanceFactor2: 1.3
+    - _DistanceFactor3: 1
+    - _DstBlend: 10
+    - _EnableExternalAlpha: 0
+    - _FadeLength: 0.91
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _InvFade: 1.58
+    - _MaxTriSize: 25
+    - _Metallic: 0
+    - _Mode: 3
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _OutlineWidth: 3.51
+    - _OutlineZSmooth: 0
+    - _Parallax: 0.02
+    - _RampSmoothing: 0.011
+    - _RampThreshold: 0.127
+    - _RemoveDiag: 1
+    - _RemoveFront: 1
+    - _RepeatCount: 1
+    - _RimFactor: 5
+    - _RimMaxVert: 1
+    - _RimMinVert: 0.5
+    - _Shininess: 0.01
+    - _SmoothnessTextureChannel: 1
+    - _Spacing: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Strength: 1
+    - _Threshold: 0.01
+    - _UVSec: 0
+    - _UseNormalMap: 0
+    - _UseRim: 0
+    - _UseTexturedThreshold: 0
+    - _UseUIAlphaClip: 1
+    - _WireSmoothness: 6.3
+    - _WireThickness: 404
+    - _WireframeAliasing: 2
+    - _WireframeVal: 0.01
+    - _WireframeWidth: 0.06
+    - _ZTest: 6
+    - _ZWrite: 0
+    - __dummy__: 0
+    - __outline_gui_dummy__: 0
+    m_Colors:
+    - _BackColor: {r: 0.93392944, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.8941177, b: 0, a: 0.23529412}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmisColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 0}
+    - _EmissionColor: {r: 1, g: 0.7609758, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _FrontColor: {r: 1, g: 1, b: 0, a: 1}
+    - _GlowColor: {r: 1, g: 1, b: 1, a: 0.38431373}
+    - _HColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColorVertex: {r: 0, g: 0, b: 0, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.8595643, b: 0, a: 0.5}
+    - _SColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 0}
+    - _WireColor: {r: 0, g: 1, b: 0, a: 1}
+    - _WireframeBackColour: {r: 1, g: 0.6431373, b: 0, a: 1}
+    - _WireframeColour: {r: 0, g: 0, b: 0, a: 1}
+    - _WireframeFrontColour: {r: 1, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

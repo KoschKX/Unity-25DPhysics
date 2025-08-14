@@ -1,0 +1,12 @@
+**/ZipBackup/
+.DS_Store
+/.vscode
+/Library
+/Logs
+25D-Physics.sln
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+BGCurve.csproj
+Assets/SoccerBall.blend1
+/Temp
+Unity-25DPhysics.sln

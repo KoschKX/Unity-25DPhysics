@@ -121,9 +121,6 @@ namespace CornEngine
           if(animator==null&&GetComponentInChildren<Animator>()!=null){
             animator=GetComponentInChildren<Animator>();
           }
-          if(animator==null){
-            Debug.Log("An Animator is required!");
-          }
       }
 
 /*** PATH ***/
@@ -261,6 +258,7 @@ namespace CornEngine
 /*** ANIMATION ***/
 
       public void HandleAnimator(){
+          if(animator==null){return;}
           animator.SetBool(AnimGrounded, isGrounded);
           if(isGrounded){
             if(speed.w==0){
